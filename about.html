@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favi.ico" type="image/x-icon" id="favicon">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="menu_bar" onclick="sideBarShow()">
+                <div class="him"></div>
+                <div class="him"></div>
+                <div class="him"></div>
+            </div>
+            <label class="logo"><img src="favi.ico" alt="photo">
+            <ul id="ul">
+                <li><a href="index.html" id="selected">Home</a></li>
+                <li><a href="portifolio.html">Portifolio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li id="menu"><a href="service.html">Service</a>
+                <span class="drop_down"></span>
+                    <ul id="content">
+                        <li class="html"><a href="html.html">Html</a></li>
+                        <li><a href="#">Css</a></li>
+                        <li><a href="#">Javascript</a></li>
+                        <li><a href="#">Php</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            
+            </ul>
+        </nav>
+        </header>
+       
+       <div><h2 id="span"><span>Hello I'm </span>Abiyu Tezera </h2></div>
+       <div class="about">
+
+            <div><p><b>My name is Abiyu Tezera i live in Ethiopia </b><br>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>  Dignissimos, minima ratione nulla facere expedita officia<br> architecto quod deleniti nisi inventore,  numquam voluptas,<br> sapiente debitis. Eum ab incidunt maiores odit voluptatibus. <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> Eligendi earum atque magnam cupiditate perspiciatis molestiae <br>voluptatibus amet magni  quibusdam iste excepturi voluptatem <br> aliquid quae illo assumenda ipsam, odio maiores quod.
+            </p>
+             <div><a href="andriod.txt" class="pdf">Open This File</a></div>
+            </div>
+    
+            <div><img src="phone/phone5.jpeg" alt=""></div>
+       </div>
+
+        <footer>
+        <div class="social_icon">
+            <a href="https://t.me/Birra29" class="fb"><img src="Social/telegram.png" alt="Telegram" width="32px" height="32px" border-radius="50%"></a>
+            <a href="https://www.facebook.com/abiyu.tezera.5" class="tele"><img src="Social/facebook.png" alt="facebook" width="32px" height="32px" border-radius="50%"></a>
+            <a href="https://instagram.com/abiyu589?igshid=MzMyNGUyNmU2YQ==" class="insta"><img src="Social/instagram.png" alt="instagram" width="32px" height="32px" border-radius="50%"></a>
+
+            <a href="https://youtube.com/@ab-sport4512?si=N2g2PHGMe5RPvHMZ" class="insta"><img src="Social/youtube.png" alt="instagram" width="32px" height="32px" border-radius="50%"></a>
+        </div>
+        &copy; 2023 Abiyu Tezera Personal Website. All rights reserved
+    </footer>
+     <script>
+            function sideBarShow(){
+                var bar = document.getElementById('ul');
+                bar.style.display="block";
+               // bar.classList.toggle('show');
+            }
+        </script>
+</body>
+</html>

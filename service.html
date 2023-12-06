@@ -1,0 +1,130 @@
+<?php
+session_start();
+?>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portifolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="favi.ico" type="image/x-icon" id="favicon">
+        <style>
+            .err {
+                color: red;
+                font-style: italic;
+            }
+        </style>
+        <?php
+    include("signup.php");
+    ?>
+    </head>
+
+    <body>
+        <div class="toggle">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+        <nav>
+            <div class="menu_bar" onclick="sideBarShow()">
+                <div class="him"></div>
+                <div class="him"></div>
+                <div class="him"></div>
+            </div>
+            <label class="logo"><img src="favi.ico" alt="photo">
+            <ul id="ul">
+                <li><a href="index.html" id="selected">Home</a></li>
+                <li><a href="portifolio.html">Portifolio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li id="menu"><a href="service.html">Service</a>
+                    <span class="drop_down"></span>
+                    <ul id="content">
+                        <li class="html"><a href="html.html">Html</a></li>
+                        <li><a href="#">Css</a></li>
+                        <li><a href="#">Javascript</a></li>
+                        <li><a href="#">Php</a></li>
+                    </ul>
+                </li>
+                <li><a href="portifolio.html">Contact</a></li>
+
+            </ul>
+    </nav>
+        <h1 style="margin: 50px;">Services<span style="float: right;"><input type="submit" value="Signup"></span></h1><hr>
+        <div class="service">
+            <div class="service_list">
+
+                <div><img src="phone/phone1.jpeg" alt="">
+                <h3>Samsung Phone</h3>
+                <p>
+                Lorem ipsum dolor sit, amet <br>consectetur adipisicing elit.
+            </p>
+                <a href="">Buy now</a>
+                </div>
+               <div><img src="phone/phone2.jpeg" alt="">
+                <h3>Apple Phone</h3>
+               <p>
+                Lorem ipsum dolor sit, amet<br> consectetur adipisicing elit.
+            </p>
+                <a href="">Buy now</a></div>
+                <div><img src="phone/phone3.jpeg" alt="">
+                <h3>Techno Phone</h3>
+                <p>
+                Lorem ipsum dolor sit, amet <br>consectetur adipisicing elit.
+            </p>
+                <a href="">Buy now</a></div>
+                <div><img src="phone/phone4.jpeg" alt="">
+                <h3>Itel Phone</h3>
+                <p>
+                Lorem ipsum dolor sit, amet<br> consectetur adipisicing elit.
+            </p>
+                <a href="">Toshiba Laptop</a></div>
+                <div><img src="phone/laptop.jpeg" alt="">
+                <h3>Abiyu Tezera</h3>
+                <p>
+                Lorem ipsum dolor sit, amet <br>consectetur adipisicing elit.
+            </p>
+                <a href="">Buy now</a></div>
+                <div><img src="phone/phone5.jpeg" alt="">
+                <h3>Smadav Phone</h3>
+                <p>
+                Lorem ipsum dolor sit, amet <br>consectetur adipisicing elit.
+            </p>
+                <a href="">Buy now</a></div>
+
+
+               <!-- <a href=""><img src="phone/phone1.jpeg" alt="">Buy now</a>
+                <a href=""><img src="phone/phone2.jpeg" alt="">Buy now</a>
+                <a href=""><img src="phone/phone3.jpeg" alt="">Buy now</a>
+                <a href=""><img src="phone/laptop.jpeg" alt="">Buy now</a>
+                <a href=""><img src="phone/phone5.jpeg" alt="">Buy now</a>
+                <a href=""><img src="phone/phone6.png" alt="">Buy now</a>-->
+            </div>
+        </div>
+
+             <footer>
+        <div class="social_icon">
+            <a href="https://t.me/Birra29" class="fb"><img src="Social/telegram.png" alt="Telegram" width="32px" height="32px" border-radius="50%"></a>
+            <a href="https://www.facebook.com/abiyu.tezera.5" class="tele"><img src="Social/facebook.png" alt="facebook" width="32px" height="32px" border-radius="50%"></a>
+            <a href="https://instagram.com/abiyu589?igshid=MzMyNGUyNmU2YQ==" class="insta"><img src="Social/instagram.png" alt="instagram" width="32px" height="32px" border-radius="50%"></a>
+
+            <a href="https://youtube.com/@ab-sport4512?si=N2g2PHGMe5RPvHMZ" class="insta"><img src="Social/youtube.png" alt="instagram" width="32px" height="32px" border-radius="50%"></a>
+        </div>
+        &copy; 2023 Abiyu Tezera Personal Website. All rights reserved
+    </footer>
+
+    <script>
+        function sideBarShow() {
+            var bar = document.getElementById('ul');
+            bar.style.display="block";
+            //bar.classList.toggle('show');
+        }
+    </script>
+
+
+
+</body>
+
+</html>

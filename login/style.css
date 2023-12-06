@@ -1,0 +1,499 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body{
+    background-color: white;
+    width: 100%;
+}
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 80px;
+}
+.logo img{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+}
+.logo img:hover{
+    filter: opacity(50%);
+}
+span.birra{
+    color: white;
+    font-size: 18px;
+    position: relative;
+    top: -20px;
+    left: 8px;
+}
+span.birra:hover{
+    opacity: 50%;
+}
+#birra{
+    color: rgb(131, 82, 8);
+    font-size: 20px;
+}
+header{
+    background-color: rgb(39, 128, 163);
+    color: white;
+    width: 100%;
+    height: 100px;
+}
+nav{
+    background-color: rgb(39, 128, 163);
+    color: white;
+    width: 100%;
+    
+}
+ ul{
+    float: right;
+    margin-right: 40px;
+
+}
+ ul li{
+    display: inline-block;
+    padding: 0px 29px;
+       
+}
+ ul li a{
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+ul li a:hover{
+    color: rgb(131, 82, 8);
+}
+#selected{
+    color: rgb(146, 144, 144);
+}
+#selected:hover{
+    color: rgb(131, 82, 8)
+}
+.drop_down{
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid white;
+    width: 0;
+    height: 0;
+    position: relative;
+    padding: 1px;
+    top: 17px;
+    left: 10px;
+}
+
+span{
+    color: black;
+}
+
+#content{
+     display: none;
+}
+#menu:hover #content{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+}
+#content li{
+    padding: 0px 0px;
+    margin-left: 50px;
+}
+#content li a{
+    color: black;
+    text-align: right;
+    padding-top: -10px;
+    }
+#content li a:hover{
+     color: rgb(131, 82, 8)
+}
+h2{
+    color: rgb(22, 84, 109);
+    font-size: 29px;
+    font-weight: bold;
+    font-family: serif;
+    position: relative;
+    left: 50px;
+    top: 25px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    flex-grow: 1;
+    flex-basis: 1;
+    color: black;
+    position: relative;
+    left: 80px;
+    top: 29px;
+}
+.computer5{
+    display: flex;
+    flex-direction: column;
+     margin-left: 29px;
+    margin-top: 20px;
+
+}
+.computer5 img{
+    border-radius: 20px;
+    border: 1px solid  rgb(22, 84, 109);
+    width: 380px;
+    height: 250px;
+}
+.computer5 img:hover{
+    filter: grayscale(50%);
+    transition: all .4s ease-in-out;
+    transform: rotateY(10deg);
+}
+.computer5 a{
+    color: black;
+    font-weight: bold;
+}
+.computer5 a:hover{
+    color: rgb(39, 128, 163);
+    transition: 0.5s;
+}
+.computer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 20px; 
+}
+.computer img{
+    border-radius: 20px;
+    border: 1px solid  rgb(39, 128, 163);
+    width: 380px;
+    height: 250px;
+}
+.computer img:hover{
+    filter: grayscale(50%);
+    transition: all .4s ease-in-out;
+    transform: rotateY(10deg);
+}
+.computer a{
+    color: black;
+    font-weight: bold;
+}
+.computer a:hover{
+    color: rgb(22, 84, 109);
+    transition: 0.5s;
+} 
+
+.computer1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 20px; 
+}
+.computer1 img{
+    border-radius: 20px;
+    border: 1px solid  rgb(39, 128, 163);
+    width: 380px;
+    height: 250px;
+}
+.computer1 img:hover{
+    filter: grayscale(50%);
+    transition: all .4s ease-in-out;
+    transform: rotateY(10deg);
+}
+.computer1 a{
+    color: black;
+    font-weight: bold;
+}
+.computer1 a:hover{
+    color: rgb(22, 84, 109);
+    transition: 0.5s;
+} 
+
+.computer4{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 20px; 
+}
+.computer4 img{
+    border-radius: 20px;
+    border: 1px solid  rgb(39, 128, 163);
+    width: 380px;
+    height: 250px;
+}
+.computer4 img:hover{
+    filter: grayscale(50%);
+    transition: all .4s ease-in-out;
+    transform: rotateY(10deg);
+}
+.computer4 a{
+    color: black;
+    font-weight: bold;
+}
+.computer4 a:hover{
+    color: rgb(22, 84, 109);
+    transition: 0.5s;
+} 
+
+.computer3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 20px; 
+}
+.computer3 img{
+    border-radius: 20px;
+    border: 1px solid  rgb(39, 128, 163);
+    width: 380px;
+    height: 250px;
+}
+.computer3 img:hover{
+    filter: grayscale(50%);
+    transition: all .4s ease-in-out;
+    transform: rotateY(10deg);
+}
+.computer3 a{
+    color: black;
+    font-weight: bold;
+}
+.computer3 a:hover{
+    color: rgb(22, 84, 109);
+    transition: 0.5s;
+}
+.computer2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-top: 20px; 
+}
+.computer2 img{
+    border-radius: 20px;
+    border: 1px solid  rgb(39, 128, 163);
+    width: 380px;
+    height: 250px;
+}
+.computer2 img:hover{
+    filter: grayscale(50%);
+    transition: all .4s ease-in-out;
+    transform: rotateY(10deg);
+}
+.computer2 a{
+    color: black;
+    font-weight: bold;
+}
+.computer2 a:hover{
+    color: rgb(22, 84, 109);
+    transition: 0.5s;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+     margin-left: 40px;
+    margin-top: 20px;
+     position: relative;
+    top: 40px;
+}
+.about img{
+     border-radius: 20px;
+    width: 550px;
+    height: 450px;
+}
+
+.about img:hover{
+    filter: grayscale(100%);
+    transition: all .4s ease-in-out;
+    transform: rotateY(10deg);
+}
+.about p{
+    color: black;
+    margin-left: 10px;
+    margin-top: 150px;
+    font-size: 18px;
+}
+.about_service{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+ .about_image{
+     width: 290px;
+     height: 100px;
+     border-radius: 20px;
+    
+}
+ .paragraph{
+    display: none;
+}
+.about_image:hover .paragraph{
+    display: flex;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    color: rgb(145, 49, 49);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.pdf{
+    display: flex;
+    flex-direction: column;
+     margin-left: 40px;
+    margin-top: 20px;
+     position: relative;
+    top: 29px;
+    width: 100%;
+}
+
+.pdf{
+    color: rgb(22, 84, 109);
+    margin-left: 10px;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.menu_bar{
+    display: none;
+    flex-direction: none;
+    width: 40px;
+    height: 10px;
+    border-radius: 5px;
+    float: right;
+    position: absolute;
+    top: 29px;
+    right: 50px;
+    cursor: pointer;
+}
+
+.him{
+    height: 2px;
+    width: 25px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+.social_icon{
+    display: flex;
+    float: right;
+    position: relative;
+    top: 10px;
+    right: 50px;
+    margin-top: 40px;
+    text-align: center;
+}
+.social_icon a{
+    padding: 2px 10px;
+}
+.social_icon a .fb img:hover{
+    filter: opacity(20%);
+}
+.fa{
+    display:none;
+    
+}
+
+.contact{
+    position: absolute;
+    top: 250px;
+    left: 250px;
+    color: black;
+}
+ul.show{
+    display: block;
+}
+
+#footer
+{
+    margin-top: auto;
+    margin-bottom: 0px;
+}
+
+     @media screen and (max-width:900px) {
+        ul li a{
+                flex-direction: column;
+        }
+        .menu{
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 50px;
+            right: 10px;
+        }
+        h2{
+            display: none;
+        }
+        
+        header{
+            width: 100%;
+            height: 100vh;
+        }
+        .logo{
+            padding: 5px;
+        }
+       
+        ul {
+           display: none;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2px;
+            position: relative;
+            top: 40px;
+            left: 20px;
+            width: 100%;
+           
+        }
+        ul li{
+             align-items: center;
+            justify-content: center;
+            padding: 20px 6px;
+            margin: 2px;
+            display: flex;
+            flex-direction: column;
+        }
+    
+       
+        .container{
+            display: block;
+        }
+        
+        .menu_bar{
+            display: block;
+            flex-direction: none;
+        }
+
+        #menu:hover #content{
+                display: none;
+                flex-direction: column;
+                position: absolute;
+                z-index: 1;
+    }
+    .drop_down{
+        display: none;
+    }
+
+        /* #content{
+            display: none;
+            position: relative;
+            left: 10px;
+            top: 40px;
+         }
+        #content li{
+            padding: 14px 5px;
+            
+        }
+       .drop_down{
+        display: none;
+        position: relative;
+        top: -15px;
+        left: 40px;
+       }*/
+
+    }
+   
